@@ -47,17 +47,22 @@ Permissions can be changed using the `chmod` command, for example:
 ```bash
 chmod 755 filename
 
+---
+
+
 5. What is the purpose of the /etc/passwd file in Linux?
 The /etc/passwd file stores essential information about all user accounts in a Linux system, such as:
 
 Username
 User ID (UID)
 Group ID (GID)
-User’s home directory
+User’s home directory      
 Shell (command-line interpreter)
+
 6. How do you check the disk usage in Linux?
 df -h: Displays disk space usage of file systems in a human-readable format.
 du -h: Shows the disk usage of files and directories.
+
 7. What is the difference between a process and a thread?
 A process is an independent program in execution with its own memory space, while a thread is a lightweight sub-process that shares the same memory space with other threads in the same process. Threads allow for more efficient CPU usage in applications that perform multiple tasks.
 
@@ -65,6 +70,7 @@ A process is an independent program in execution with its own memory space, whil
 ps aux: Displays all running processes.
 top: Provides an interactive, real-time view of system processes.
 htop: An enhanced version of top (requires installation).
+
 9. What is the difference between cron and at?
 cron is used for scheduling recurring tasks at specified intervals (e.g., daily, weekly).
 at is used to schedule a one-time task to run at a specific time in the future.
