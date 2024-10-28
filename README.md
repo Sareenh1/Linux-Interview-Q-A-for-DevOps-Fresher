@@ -1,5 +1,4 @@
- Linux Interview Questions and Answers for DevOps Freshers
-
+Linux Interview Questions and Answers for DevOps Freshers
 This document provides common Linux interview questions and answers for DevOps freshers, helping them prepare for their interview.
 1. What is Linux and why is it important in DevOps?
 Linux is an open-source operating system that provides a stable, secure, and scalable environment for software development and deployment. It is widely used in DevOps because of its compatibility with a variety of tools, ability to automate tasks via scripts, and its lightweight nature for containerization and virtualization.
