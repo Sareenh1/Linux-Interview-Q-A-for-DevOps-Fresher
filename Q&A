@@ -1,3 +1,6 @@
 1. What is Linux and why is it important in DevOps?
 Answer:
-Linux is an open-source operating system that provides a stable, secure, and scalable environment for software development and deployment. It is widely used in DevOps because of its compatibility with a variety of tools, ability to automate tasks via scripts, and its lightweight nature for containerization and virtualization.
+Linux is an open-source operating system that provides a stable, secure,
+and scalable environment for software development and deployment. 
+It is widely used in DevOps because of its compatibility with a variety of tools, 
+ability to automate tasks via scripts, and its lightweight nature for containerization and virtualization.
