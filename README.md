@@ -1,17 +1,9 @@
-# Linux Interview Questions and Answers for DevOps Freshers
+ Linux Interview Questions and Answers for DevOps Freshers
 
 This document provides common Linux interview questions and answers for DevOps freshers, helping them prepare for their interview.
-
----
-
-### 1. What is Linux and why is it important in DevOps?
-
+1. What is Linux and why is it important in DevOps?
 Linux is an open-source operating system that provides a stable, secure, and scalable environment for software development and deployment. It is widely used in DevOps because of its compatibility with a variety of tools, ability to automate tasks via scripts, and its lightweight nature for containerization and virtualization.
-
----
-
-### 2. What are the basic Linux commands every DevOps engineer should know?
-
+2. What are the basic Linux commands every DevOps engineer should know?
 - `ls`: Lists files and directories.
 - `cd`: Changes the current directory.
 - `pwd`: Prints the current directory path.
@@ -22,16 +14,10 @@ Linux is an open-source operating system that provides a stable, secure, and sca
 - `grep`: Searches for patterns in files.
 - `chmod`: Changes file permissions.
 - `ps`: Displays running processes.
-
----
-
-### 3. Explain the difference between `apt` and `yum`.
+3. Explain the difference between `apt` and `yum`.
 
 `apt` (Advanced Packaging Tool) is the package manager for Debian-based distributions like Ubuntu, while `yum` (Yellowdog Updater Modified) is used for RedHat-based distributions like CentOS and Fedora. Both are used to install, update, and manage software packages, but they work with different package formats (`.deb` for `apt` and `.rpm` for `yum`).
-
----
-
-### 4. What are file permissions in Linux and how do you change them?
+4. What are file permissions in Linux and how do you change them?
 
 File permissions determine who can read, write, or execute a file. There are three types of permissions:
 - **Read (r)**: Allows viewing the file content.
@@ -46,10 +32,6 @@ Each file has permissions for three entities:
 Permissions can be changed using the `chmod` command, for example:
 ```bash
 chmod 755 filename
-
----
-
-
 5. What is the purpose of the /etc/passwd file in Linux?
 The /etc/passwd file stores essential information about all user accounts in a Linux system, such as:
 
